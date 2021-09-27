@@ -11,6 +11,12 @@
 		A188619E27023E9200D7EB8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A188619D27023E9200D7EB8D /* ContentView.swift */; };
 		A18861A027023E9700D7EB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A188619F27023E9700D7EB8D /* Assets.xcassets */; };
 		A18861A327023E9700D7EB8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18861A227023E9700D7EB8D /* Preview Assets.xcassets */; };
+		A18861AA270249A500D7EB8D /* TravelCheckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18861A9270249A500D7EB8D /* TravelCheckModel.swift */; };
+		A18861AC27024A9B00D7EB8D /* TravelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18861AB27024A9B00D7EB8D /* TravelList.swift */; };
+		A18861AE27024C8900D7EB8D /* TravelDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18861AD27024C8900D7EB8D /* TravelDetails.swift */; };
+		A18861B02702573700D7EB8D /* SeenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18861AF2702573700D7EB8D /* SeenButton.swift */; };
+		A18861B22702592D00D7EB8D /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18861B12702592D00D7EB8D /* FirstScreen.swift */; };
+		A18861B42702593E00D7EB8D /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18861B32702593E00D7EB8D /* SecondScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		A188619D27023E9200D7EB8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A188619F27023E9700D7EB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A18861A227023E9700D7EB8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A18861A9270249A500D7EB8D /* TravelCheckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCheckModel.swift; sourceTree = "<group>"; };
+		A18861AB27024A9B00D7EB8D /* TravelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelList.swift; sourceTree = "<group>"; };
+		A18861AD27024C8900D7EB8D /* TravelDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetails.swift; sourceTree = "<group>"; };
+		A18861AF2702573700D7EB8D /* SeenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenButton.swift; sourceTree = "<group>"; };
+		A18861B12702592D00D7EB8D /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		A18861B32702593E00D7EB8D /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				A188619B27023E9200D7EB8D /* TravelCheckAppApp.swift */,
 				A188619D27023E9200D7EB8D /* ContentView.swift */,
+				A18861A9270249A500D7EB8D /* TravelCheckModel.swift */,
+				A18861AB27024A9B00D7EB8D /* TravelList.swift */,
+				A18861AD27024C8900D7EB8D /* TravelDetails.swift */,
+				A18861AF2702573700D7EB8D /* SeenButton.swift */,
+				A18861B12702592D00D7EB8D /* FirstScreen.swift */,
+				A18861B32702593E00D7EB8D /* SecondScreen.swift */,
 				A188619F27023E9700D7EB8D /* Assets.xcassets */,
 				A18861A127023E9700D7EB8D /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18861B22702592D00D7EB8D /* FirstScreen.swift in Sources */,
+				A18861B42702593E00D7EB8D /* SecondScreen.swift in Sources */,
+				A18861AA270249A500D7EB8D /* TravelCheckModel.swift in Sources */,
+				A18861AC27024A9B00D7EB8D /* TravelList.swift in Sources */,
+				A18861AE27024C8900D7EB8D /* TravelDetails.swift in Sources */,
 				A188619E27023E9200D7EB8D /* ContentView.swift in Sources */,
+				A18861B02702573700D7EB8D /* SeenButton.swift in Sources */,
 				A188619C27023E9200D7EB8D /* TravelCheckAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
